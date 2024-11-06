@@ -85,8 +85,8 @@ while not exit:
 
         elif event.type == SPRITE_COLOR_CHANGE_EVENT:
             sp1.change_color()
-            sp1.change_color()
-            sp1.change_color()
+            sp2.change_color()
+            sp3.change_color()
         elif event.type == BACKGROUND_COLOR_CHANGE_EVENT:
             change_background()
 
